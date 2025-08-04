@@ -1,0 +1,57 @@
+# Build artifacts
+target/
+!target/*.jar
+*.war
+*.ear
+*.nar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Docker files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Documentation
+*.md
+!README.md
+
+# Environment files
+.env
+.env.local
+
+# Test coverage
+coverage/
+
+# Node modules (if any frontend assets)
+node_modules/
+npm-debug.log*
+
+# Spring Boot DevTools restart trigger file
+.reloadtrigger
